@@ -19,7 +19,7 @@ import { ContactComponent } from './components/contact/contact.component';
   imports: [
     BrowserModule,
     FormsModule,
-    AppRoutingModule, // Importe o AppRoutingModule aqui
+    AppRoutingModule, // Import the AppRoutingModule here
   ],
   providers: [],
   bootstrap: [AppComponent]

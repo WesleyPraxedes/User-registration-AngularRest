@@ -1,18 +1,42 @@
-<p>contact works!</p>
-<div>
-  <h2>Entre em Contato</h2>
-  <p>Para obter mais informações sobre a Empresa X, entre em contato conosco:</p>
+<div class="container mt-4">
+	<h2 class="mb-4">Entre em Contato</h2>
 
-  <ul>
-    <li><strong>Endereço:</strong> Rua da Empresa, 123</li>
-    <li><strong>Telefone:</strong> (11) 1234-5678</li>
-    <li><strong>Email:</strong> contato@empresaX.com</li>
-  </ul>
+	<p>For more information about TechInnovate Solutions, please contact us:</p>
+	
+	<ul class="list-group mb-4">
+		<li class="list-group-item"><strong>Address:</strong> Company Street, Tech City</li>
+		<li class="list-group-item"><strong>Phone:</strong> +1 (987) 654-3210</li>
+		<li class="list-group-item"><strong>Email:</strong> info@techinnovate.com</li>
+	</ul>
 
-  <p>Ou preencha o formulário abaixo:</p>
+	<p>Ou preencha o formulário abaixo:</p>
 
-  <!-- Se quiser adicionar um formulário de contato, pode fazê-lo aqui -->
-  <!-- <form (ngSubmit)="onSubmit()">
-    ...
-  </form> -->
-</div>
+	<!-- Formulário de Contato -->
+	<form>
+		<div class="mb-3">
+			<label for="firstName" class="form-label">First Name:</label>
+			<input type="text" class="form-control" id="firstName" placeholder="Your first name">
+		</div>
+
+		<div class="mb-3">
+			<label for="lastName" class="form-label">Last Name:</label>
+			<input type="text" class="form-control" id="lastName" placeholder="Your last name">
+		</div>
+
+		<div class="mb-3">
+			<label for="email" class="form-label">Email:</label>
+			<input type="email" class="form-control" id="email" placeholder="your@email.com">
+		</div>
+
+		<div class="mb-3">
+			<label for="phone" class="form-label">Phone:</label>
+			<input type="tel" class="form-control" id="phone" placeholder="(11) 1234-5678">
+		</div>
+
+		<div class="mb-3">
+			<label for="message" class="form-label">Message:</label>
+			<textarea class="form-control" id="message" rows="4" placeholder="Your message"></textarea>
+		</div>
+
+		<button type="submit" class="btn btn-primary">Submit</button>
+	</form>
